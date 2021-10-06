@@ -1,0 +1,21 @@
+.right-side {
+    border-left: 1px solid #ddd;
+    width: 50%;
+    padding: 10px 70px;
+}
+
+.right-side h2 {
+    color: #3a3a3a;
+}
+
+.right-side p {
+    color: #3a3a3a;
+}
+
+@media all and (max-width:768px) {
+    .right-side {
+        border-left: none;
+        width: 100%;
+        padding: 5px;
+    }
+}
